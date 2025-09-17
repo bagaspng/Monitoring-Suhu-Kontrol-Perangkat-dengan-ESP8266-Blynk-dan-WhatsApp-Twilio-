@@ -9,8 +9,8 @@
 #include "DHT.h"
 
 
-char ssid[] = "bb";
-char pass[] = "12345678";
+char ssid[] = "";
+char pass[] = "";
 
 // Twilio
 const char* TWILIO_ACCOUNT_SID = "AXXXXXXXXX"; // GANTI
