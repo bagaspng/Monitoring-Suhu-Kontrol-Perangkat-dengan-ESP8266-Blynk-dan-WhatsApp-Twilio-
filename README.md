@@ -33,20 +33,4 @@ Sistem IoT ini mengintegrasikan **ESP8266**, **sensor DHT22**, **platform Blynk*
 - 📋 **Status Reports** - Laporan lengkap suhu, kelembaban, dan status perangkat
 - 🔒 **Secure Authentication** - Twilio API dengan Basic Auth
 
-### 🛡️ **System Reliability**
-- 🔄 **Auto Reconnect** - Koneksi WiFi dan Blynk otomatis
-- 🛠️ **Error Handling** - Penanganan kesalahan sensor dan koneksi
-- 💾 **Failsafe Operation** - Mode aman saat koneksi terputus
-- 📈 **Performance Monitoring** - Serial monitoring untuk debugging
 
-## 🏗️ Arsitektur Sistem
-
-```mermaid
-graph TD
-    A[ESP8266] --> B[DHT22 Sensor]
-    A --> C[LED Indicators]
-    A --> D[Relay Kulkas]
-    A --> E[Relay TV]
-    A --> F[WiFi Router]
-    F --> G[Blynk Cloud]
-    F --> H[Tw
